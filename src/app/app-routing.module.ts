@@ -4,6 +4,7 @@ import {ProviderInformationComponent} from './provider-information/provider-info
 import {LocationBasedInformationComponent} from './location-based-information/location-based-information.component';
 import {ReviewsRatingsComponent} from './reviews-ratings/reviews-ratings.component'
 import {HomeComponent} from './home/home.component'
+import { FirstAidsComponent } from './first-aids/first-aids.component'
 
 
 const routes: Routes = [
@@ -12,6 +13,7 @@ const routes: Routes = [
 	{path: 'reviews', component: ReviewsRatingsComponent},
 	{path: 'home', component: HomeComponent},
 	{path: 'directory', component: ProviderInformationComponent},
+	{ path: 'first-aid', component: FirstAidsComponent }
 ];
 
 @NgModule({

@@ -8,6 +8,7 @@ import { ReviewsRatingsComponent } from './reviews-ratings/reviews-ratings.compo
 import { ProviderInformationComponent } from './provider-information/provider-information.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { HomeComponent } from './home/home.component';
+import { FirstAidsComponent } from './first-aids/first-aids.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HomeComponent } from './home/home.component';
     ReviewsRatingsComponent,
     ProviderInformationComponent,
     NavBarComponent,
-    HomeComponent
+    HomeComponent,
+    FirstAidsComponent
   ],
   imports: [
     BrowserModule,
