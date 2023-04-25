@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ProviderService } from '../services/provider.service'
 
 @Component({
   selector: 'app-provider-information',
@@ -6,5 +7,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./provider-information.component.css']
 })
 export class ProviderInformationComponent {
+
+  constructor(private _obj: ProviderService){
+
+    _obj.getProviderData().subscribe(data => {
+      console.log(data);
+    })
+
+  }
 
 }
